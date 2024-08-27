@@ -1,0 +1,152 @@
+/* Reset some basic styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .logo h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+.header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav ul li a.btn {
+    background-color: #e91e63;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-buttons .btn {
+    background-color: #e91e63;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Features Section */
+.features {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    background-color: #e91e63;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Services Section */
+.services {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+.services img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
